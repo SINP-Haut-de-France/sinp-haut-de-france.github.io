@@ -1,6 +1,6 @@
 # Fiche de signalement Géocontrib
 
-Ce document explique comment remplir la fiche de signalement créée dans Géocontrib pendant la phase de tests.
+Ce document explique comment remplir la [fiche de signalement](https://www.geo2france.fr/geocontrib/projet/52-remontee-de-bug-sinp/type-signalement/201-fiche-de-remontee-de-bug-sinp-copie-02062026-1647) créée dans Géocontrib pendant la phase de tests.
 
 L'objectif de cette fiche est de transmettre aux développeurs les informations nécessaires pour comprendre, reproduire, qualifier et corriger un bug ou un comportement étrange. Plus le signalement est précis, plus il est facile de traiter le problème rapidement.
 
