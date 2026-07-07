@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Guide de test utilisateur | Plateforme SINP Hauts-de-France</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Guide de test utilisateur" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France" />
+<meta property="og:description" content="Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France" />
+<link rel="canonical" href="http://localhost:4000/Tutos/guide-tests-utilisateur.html" />
+<meta property="og:url" content="http://localhost:4000/Tutos/guide-tests-utilisateur.html" />
+<meta property="og:site_name" content="Plateforme SINP Hauts-de-France" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Guide de test utilisateur" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France","headline":"Guide de test utilisateur","url":"http://localhost:4000/Tutos/guide-tests-utilisateur.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8691136b166780c73efa2676eab96f6d79c182bc">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Guide de test utilisateur</h1>
+      <h2 class="project-tagline">Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France</h2>
+      
+        <a href="https://github.com/SINP-Haut-de-France/sinp_hdf.github.io" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="guide-de-test-utilisateur">Guide de test utilisateur</h1>
+
+<p>Ce document propose une méthode simple pour tester l’application web pendant une première phase de retours utilisateurs.</p>
+
+<p>L’objectif n’est pas de réaliser un audit technique complet, mais de vérifier si l’application est compréhensible, agréable à utiliser et cohérente pour un utilisateur final ou un chef de projet.</p>
+
+<h2 id="objectifs-des-tests">Objectifs des tests</h2>
+
+<p>Les tests doivent permettre de répondre à quelques questions simples :</p>
+
+<ul>
+  <li>Est-ce que l’application est facile à comprendre au premier usage ?</li>
+  <li>Est-ce que les principales actions sont faciles à trouver ?</li>
+  <li>Est-ce que le parcours utilisateur est fluide ?</li>
+  <li>Est-ce que certains libellés, boutons ou informations semblent ambigus ?</li>
+  <li>Est-ce que des erreurs, blocages ou comportements inattendus apparaissent ?</li>
+  <li>Est-ce que les informations affichées semblent cohérentes avec ce que l’utilisateur cherche à faire ?</li>
+</ul>
+
+<h2 id="comment-tester-lapplication">Comment tester l’application</h2>
+
+<p>Il est conseillé de tester l’application comme le ferait un utilisateur lambda, sans chercher à contourner volontairement le fonctionnement prévu.</p>
+
+<p>Quelques exemples de tests utiles :</p>
+
+<ol>
+  <li>Ouvrir l’application et observer si l’objectif général est compréhensible.</li>
+  <li>Parcourir les menus, boutons, filtres, cartes, tableaux ou panneaux disponibles.</li>
+  <li>Réaliser les actions principales proposées par l’application.</li>
+  <li>Vérifier si les messages affichés sont compréhensibles.</li>
+  <li>Tester plusieurs scénarios simples, par exemple rechercher une information, consulter un résultat, modifier un filtre ou revenir en arrière.</li>
+  <li>Noter les moments où l’utilisateur hésite, se trompe ou ne sait pas quoi faire.</li>
+</ol>
+
+<p>Il est important de signaler aussi bien les bugs visibles que les difficultés de compréhension ou les comportements qui semblent étranges.</p>
+
+<h2 id="points-dattention-pour-un-utilisateur-lambda">Points d’attention pour un utilisateur lambda</h2>
+
+<p>Lors du test, il faut surtout observer le ressenti utilisateur :</p>
+
+<ul>
+  <li>l’application semble-t-elle claire ?</li>
+  <li>les termes utilisés sont-ils compréhensibles ?</li>
+  <li>les boutons et actions sont-ils faciles à identifier ?</li>
+  <li>le résultat obtenu correspond-il à ce qui était attendu ?</li>
+  <li>un utilisateur non technique peut-il avancer sans aide ?</li>
+  <li>y a-t-il des moments de confusion, d’attente ou de frustration ?</li>
+</ul>
+
+<p>Un retour utilisateur peut être utile même s’il ne concerne pas un bug bloquant.</p>
+
+<h2 id="points-dattention-pour-un-chef-de-projet">Points d’attention pour un chef de projet</h2>
+
+<p>Le chef de projet peut compléter le test avec une lecture plus fonctionnelle :</p>
+
+<ul>
+  <li>les parcours proposés correspondent-ils au besoin métier ?</li>
+  <li>les informations importantes sont-elles visibles au bon moment ?</li>
+  <li>les étapes sont-elles cohérentes avec l’usage attendu ?</li>
+  <li>certains écrans ou actions manquent-ils d’explication ?</li>
+  <li>les priorités fonctionnelles semblent-elles respectées ?</li>
+  <li>certains comportements risquent-ils de poser problème en production ?</li>
+</ul>
+
+<p>Les retours doivent aider à prioriser les corrections avant les prochaines phases de développement.</p>
+
+<h2 id="informations-à-fournir-en-cas-de-bug-ou-comportement-étrange">Informations à fournir en cas de bug ou comportement étrange</h2>
+
+<p>Lorsqu’un bug, une erreur ou un comportement étrange est détecté, il faut créer une fiche de retour avec le plus d’informations possible.</p>
+
+<p>Merci d’indiquer :</p>
+
+<ul>
+  <li>le titre court du problème ;</li>
+  <li>la date et l’heure approximative du test ;</li>
+  <li>le navigateur utilisé, par exemple Firefox, Chrome, Edge ou Safari ;</li>
+  <li>le système utilisé, par exemple Windows, macOS ou Linux ;</li>
+  <li>l’adresse ou la page concernée si elle est connue ;</li>
+  <li>les étapes précises pour reproduire le problème ;</li>
+  <li>le résultat attendu ;</li>
+  <li>le résultat réellement obtenu ;</li>
+  <li>une capture d’écran si possible ;</li>
+  <li>le niveau de gêne ressenti : faible, moyen, important ou bloquant ;</li>
+  <li>toute information utile sur le contexte du test.</li>
+</ul>
+
+<p>Exemple :</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Titre : Le bouton de recherche ne déclenche aucun résultat
+Navigateur : Firefox
+Système : Windows
+Étapes :
+1. Ouvrir l'application
+2. Saisir une recherche
+3. Cliquer sur le bouton de recherche
+Résultat attendu : la liste des résultats s'affiche
+Résultat obtenu : rien ne se passe
+Gêne : importante
+</code></pre></div></div>
+
+<p>Si le problème n’est pas reproductible à chaque fois, il faut le préciser.</p>
+
+<h2 id="types-de-retours-attendus">Types de retours attendus</h2>
+
+<p>Les retours peuvent concerner :</p>
+
+<ul>
+  <li>un bug bloquant ;</li>
+  <li>une erreur visible ;</li>
+  <li>une action qui ne produit aucun effet ;</li>
+  <li>un affichage incohérent ;</li>
+  <li>un message difficile à comprendre ;</li>
+  <li>une lenteur importante ;</li>
+  <li>un parcours peu clair ;</li>
+  <li>une information manquante ;</li>
+  <li>une suggestion d’amélioration fonctionnelle.</li>
+</ul>
+
+<h2 id="ce-qui-nest-pas-encore-à-tester-dans-cette-version">Ce qui n’est pas encore à tester dans cette version</h2>
+
+<p>Certaines parties de l’application sont encore incomplètes ou non finalisées. Il est donc inutile de créer des fiches de bug sur ces points pour le moment.</p>
+
+<p>Le design général n’est pas encore finalisé. Les couleurs, espacements, styles, pictogrammes, tailles de texte et détails visuels pourront évoluer dans une prochaine version.</p>
+
+<p>L’affichage responsive n’est pas pris en charge dans cette version. Il est donc inutile de tester l’application sur smartphone ou tablette pour le moment. Les tests doivent être réalisés sur ordinateur.</p>
+
+<p>Le contenu éditorial n’est pas figé et reste incomplet. Certains textes peuvent être absents, provisoires ou remplacés par du faux texte de type lorem ipsum. Il est inutile de créer une fiche de bug pour signaler ces contenus temporaires.</p>
+
+<p>Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/SINP-Haut-de-France/sinp_hdf.github.io">sinp_hdf.github.io</a> is maintained by <a href="https://github.com/SINP-Haut-de-France">SINP-Haut-de-France</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
