@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Fiche de signalement Géocontrib | Plateforme SINP Hauts-de-France</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Fiche de signalement Géocontrib" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France" />
+<meta property="og:description" content="Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France" />
+<link rel="canonical" href="http://localhost:4000/Tutos/fiche-signalement-geocontrib.html" />
+<meta property="og:url" content="http://localhost:4000/Tutos/fiche-signalement-geocontrib.html" />
+<meta property="og:site_name" content="Plateforme SINP Hauts-de-France" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Fiche de signalement Géocontrib" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France","headline":"Fiche de signalement Géocontrib","url":"http://localhost:4000/Tutos/fiche-signalement-geocontrib.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8691136b166780c73efa2676eab96f6d79c182bc">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Fiche de signalement Géocontrib</h1>
+      <h2 class="project-tagline">Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France</h2>
+      
+        <a href="https://github.com/SINP-Haut-de-France/sinp_hdf.github.io" class="btn">View on GitHub</a>
+      
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="fiche-de-signalement-géocontrib">Fiche de signalement Géocontrib</h1>
+
+<p>Ce document explique comment remplir la fiche de signalement créée dans Géocontrib pendant la phase de tests.</p>
+
+<p>L’objectif de cette fiche est de transmettre aux développeurs les informations nécessaires pour comprendre, reproduire, qualifier et corriger un bug ou un comportement étrange. Plus le signalement est précis, plus il est facile de traiter le problème rapidement.</p>
+
+<h2 id="nom-de-la-fiche">Nom de la fiche</h2>
+
+<p>Le champ <strong>Nom de la fiche</strong> correspond au titre du signalement.</p>
+
+<p>Le libellé de ce champ ne peut pas être modifié dans Géocontrib, mais il doit être compris comme le <strong>titre court du problème</strong>.</p>
+
+<p>Il faut choisir un titre clair, qui permet de comprendre rapidement le sujet sans ouvrir toute la fiche.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>Le bouton de recherche ne fonctionne pas</li>
+  <li>La carte ne s’affiche pas après chargement</li>
+  <li>Le filtre commune ne renvoie aucun résultat</li>
+  <li>Le texte d’aide n’est pas compréhensible</li>
+</ul>
+
+<p>À éviter :</p>
+
+<ul>
+  <li>Bug</li>
+  <li>Problème</li>
+  <li>Ça ne marche pas</li>
+  <li>Test application</li>
+</ul>
+
+<h2 id="description-succincte-du-problème">Description succincte du problème</h2>
+
+<p>La description permet d’expliquer ce qui a été observé.</p>
+
+<p>Elle doit contenir, si possible :</p>
+
+<ul>
+  <li>ce que le testeur voulait faire ;</li>
+  <li>les étapes réalisées ;</li>
+  <li>ce qui était attendu ;</li>
+  <li>ce qui s’est réellement produit ;</li>
+  <li>si le problème se reproduit systématiquement ou seulement parfois.</li>
+</ul>
+
+<p>Cette information est essentielle pour le développeur, car elle permet de reproduire le problème dans les mêmes conditions que le testeur.</p>
+
+<p>Exemple :</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Je voulais rechercher une commune depuis le champ de recherche.
+J'ai saisi "Lille", puis cliqué sur le résultat proposé.
+Je m'attendais à ce que la carte se centre sur la commune.
+La liste de résultats disparaît, mais la carte ne bouge pas.
+Le problème se produit à chaque essai.
+</code></pre></div></div>
+
+<h2 id="mail-du-demandeur">Mail du demandeur</h2>
+
+<p>Le mail permet de recontacter la personne qui a signalé le problème si des précisions sont nécessaires.</p>
+
+<p>Il peut être utile lorsque :</p>
+
+<ul>
+  <li>le problème n’est pas reproductible par l’équipe de développement ;</li>
+  <li>une capture d’écran manque ;</li>
+  <li>les étapes décrites ne sont pas assez précises ;</li>
+  <li>le retour concerne une demande d’amélioration à clarifier ;</li>
+  <li>le niveau de sévérité doit être confirmé.</li>
+</ul>
+
+<p>Cette information n’est pas utilisée pour juger le signalement, mais pour faciliter les échanges si besoin.</p>
+
+<h2 id="version-du-navigateur">Version du navigateur</h2>
+
+<p>La version du navigateur indique avec quel navigateur le test a été réalisé.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>Firefox 127</li>
+  <li>Chrome 126</li>
+  <li>Edge 126</li>
+  <li>Safari 17</li>
+</ul>
+
+<p>Cette information est importante, car certains bugs peuvent apparaître uniquement sur un navigateur ou une version précise.</p>
+
+<p>Par exemple, un affichage peut fonctionner correctement sur Chrome, mais être cassé sur Firefox. Une fonctionnalité peut aussi dépendre de capacités plus ou moins bien prises en charge selon le navigateur.</p>
+
+<p>Si vous ne connaissez pas la version exacte, indiquez au minimum le nom du navigateur utilisé.</p>
+
+<h2 id="type-de-support">Type de support</h2>
+
+<p>Le type de support correspond au matériel ou au contexte utilisé pour tester l’application.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>ordinateur portable ;</li>
+  <li>ordinateur fixe ;</li>
+  <li>écran externe ;</li>
+  <li>environnement professionnel ;</li>
+  <li>environnement personnel.</li>
+</ul>
+
+<p>Dans cette première version, les tests doivent être réalisés sur ordinateur. L’affichage responsive n’étant pas encore pris en charge, il est inutile de tester l’application sur smartphone ou tablette pour le moment.</p>
+
+<p>Cette information aide tout de même le développeur à comprendre le contexte du test, notamment en cas de problème d’affichage, de résolution d’écran ou de comportement lié au poste utilisé.</p>
+
+<h2 id="type-de-bug-ou-amélioration">Type de bug ou amélioration</h2>
+
+<p>Ce champ permet de classer le signalement afin de l’orienter vers le bon type de traitement.</p>
+
+<h3 id="données">Données</h3>
+
+<p>À utiliser lorsqu’une donnée semble fausse, absente, incohérente ou mal restituée.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>une valeur affichée semble erronée ;</li>
+  <li>une donnée attendue n’apparaît pas ;</li>
+  <li>un résultat ne correspond pas au filtre appliqué ;</li>
+  <li>une information cartographique semble incorrecte.</li>
+</ul>
+
+<p>Ce type de retour aide les développeurs et chefs de projet à distinguer un problème technique d’un problème lié à la donnée.</p>
+
+<h3 id="accessibilité">Accessibilité</h3>
+
+<p>À utiliser pour les problèmes d’ergonomie, d’affichage ou de confort d’utilisation.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>un bouton est difficile à identifier ;</li>
+  <li>un texte est peu lisible ;</li>
+  <li>une action n’est pas intuitive ;</li>
+  <li>un élément masque une information importante ;</li>
+  <li>le contraste ou la taille d’un élément gêne la lecture.</li>
+</ul>
+
+<p>Ce type de retour concerne l’expérience utilisateur et la facilité d’utilisation de l’application.</p>
+
+<h3 id="problème-daccès-aux-flux">Problème d’accès aux flux</h3>
+
+<p>À utiliser lorsqu’une ressource externe ne semble pas se charger correctement.</p>
+
+<p>Cela peut concerner des flux ou fichiers de type WFS, CSV, JSON ou autres sources de données.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>une couche ne se charge pas ;</li>
+  <li>un message d’erreur apparaît au chargement d’une donnée ;</li>
+  <li>une liste reste vide alors qu’elle devrait être alimentée ;</li>
+  <li>la carte ou un tableau ne reçoit aucune donnée.</li>
+</ul>
+
+<p>Cette information est utile pour le développeur, car elle permet de rechercher un problème de connexion, de configuration, de disponibilité du service ou de format de réponse.</p>
+
+<h3 id="sécurité">Sécurité</h3>
+
+<p>À utiliser lorsqu’un comportement semble présenter un risque de sécurité.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>accès à une information qui ne devrait pas être visible ;</li>
+  <li>affichage de données sensibles ;</li>
+  <li>accès possible à une fonctionnalité réservée ;</li>
+  <li>comportement inhabituel après une action liée aux droits ou aux accès.</li>
+</ul>
+
+<p>Ce type de signalement doit être traité avec attention, car il peut concerner la confidentialité, l’intégrité des données ou les droits d’accès.</p>
+
+<h3 id="contenu">Contenu</h3>
+
+<p>À utiliser pour les remarques sur les textes, logos, mentions légales ou contenus éditoriaux.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>faute dans un texte ;</li>
+  <li>logo incorrect ;</li>
+  <li>mention légale absente ;</li>
+  <li>formulation à corriger.</li>
+</ul>
+
+<p>Attention : dans cette version de test, le contenu n’est pas encore figé et peut être incomplet ou remplacé par du lorem ipsum. Il est donc inutile de créer une fiche uniquement pour signaler un texte provisoire ou un faux contenu déjà identifié comme temporaire.</p>
+
+<h3 id="idées-propositions">Idées, propositions</h3>
+
+<p>À utiliser pour proposer une amélioration, une nouvelle fonctionnalité ou une information complémentaire.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>ajouter un filtre ;</li>
+  <li>modifier l’ordre d’affichage d’informations ;</li>
+  <li>ajouter une aide ou une infobulle ;</li>
+  <li>simplifier un parcours ;</li>
+  <li>afficher une information métier supplémentaire.</li>
+</ul>
+
+<p>Ce type de retour est utile pour alimenter les prochaines phases de conception et prioriser les évolutions.</p>
+
+<h3 id="autres">Autre(s)</h3>
+
+<p>À utiliser si aucun des types précédents ne correspond au signalement.</p>
+
+<p>Il est conseillé d’expliquer clairement dans la description pourquoi le retour ne rentre pas dans une catégorie existante.</p>
+
+<h2 id="estimation-du-niveau-de-sévérité">Estimation du niveau de sévérité</h2>
+
+<p>La sévérité permet d’estimer l’impact du problème. Elle aide à prioriser les corrections.</p>
+
+<p>Il ne s’agit pas de juger la qualité du retour, mais de comprendre l’urgence et l’importance du problème.</p>
+
+<h3 id="faible">Faible</h3>
+
+<p>À utiliser pour un problème mineur qui ne bloque pas l’utilisation.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>petite gêne visuelle ;</li>
+  <li>libellé légèrement ambigu ;</li>
+  <li>amélioration de confort ;</li>
+  <li>comportement perfectible mais contournable facilement.</li>
+</ul>
+
+<h3 id="moyen">Moyen</h3>
+
+<p>À utiliser pour un problème non prioritaire, à traiter selon sa sévérité réelle et le plan de charge.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>fonctionnalité partiellement gênante ;</li>
+  <li>parcours peu clair mais utilisable ;</li>
+  <li>erreur non bloquante ;</li>
+  <li>problème contournable avec une autre action.</li>
+</ul>
+
+<h3 id="élevé">Élevé</h3>
+
+<p>À utiliser pour un problème bloquant avec impact sur la donnée, sa diffusion ou sa communication.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>donnée importante absente ou erronée ;</li>
+  <li>fonctionnalité principale inutilisable ;</li>
+  <li>résultat métier incorrect ;</li>
+  <li>information diffusée de manière incorrecte.</li>
+</ul>
+
+<p>Ce niveau doit être utilisé lorsque le problème empêche un usage important de l’application ou peut entraîner une mauvaise compréhension de la donnée.</p>
+
+<h3 id="critique">Critique</h3>
+
+<p>À utiliser pour un problème bloquant avec plantage applicatif, visibilité de données sensibles ou risque de sécurité.</p>
+
+<p>Exemples :</p>
+
+<ul>
+  <li>l’application plante ou devient totalement inutilisable ;</li>
+  <li>une donnée sensible est visible alors qu’elle ne devrait pas l’être ;</li>
+  <li>un problème de sécurité est suspecté ;</li>
+  <li>un accès non autorisé semble possible.</li>
+</ul>
+
+<p>Ce niveau doit rester exceptionnel et être réservé aux situations les plus graves.</p>
+
+<h2 id="pièces-jointes">Pièce(s) jointe(s)</h2>
+
+<p>Les pièces jointes permettent de mieux comprendre le problème.</p>
+
+<p>Il est recommandé d’ajouter une capture d’écran dès qu’un problème visuel, un message d’erreur ou un comportement étrange est constaté.</p>
+
+<p>Formats à privilégier :</p>
+
+<ul>
+  <li>PDF ;</li>
+  <li>JPG.</li>
+</ul>
+
+<p>Une bonne capture d’écran doit montrer :</p>
+
+<ul>
+  <li>la zone concernée ;</li>
+  <li>le message d’erreur s’il y en a un ;</li>
+  <li>le résultat obtenu ;</li>
+  <li>si possible, l’ensemble de l’écran pour comprendre le contexte.</li>
+</ul>
+
+<p>Les pièces jointes sont très utiles pour les développeurs, car elles permettent parfois d’identifier rapidement un problème qui serait difficile à décrire uniquement avec du texte.</p>
+
+<h2 id="exemple-de-fiche-bien-remplie">Exemple de fiche bien remplie</h2>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Nom de la fiche :
+Le filtre commune ne met pas à jour les résultats
+
+Description succincte du problème :
+Je sélectionne une commune dans le filtre, mais les résultats affichés ne changent pas.
+Je m'attendais à voir uniquement les données liées à cette commune.
+Le problème se reproduit à chaque test.
+
+Mail du demandeur :
+prenom.nom@example.fr
+
+Version du navigateur :
+Firefox 127
+
+Type de support :
+Ordinateur portable
+
+Type de bug / Amélioration :
+Données
+
+Estimation du niveau de sévérité :
+Élevé
+
+Pièce(s) jointe(s) :
+Capture d'écran au format JPG montrant le filtre sélectionné et les résultats affichés.
+</code></pre></div></div>
+
+<h2 id="rappel-sur-le-périmètre-de-cette-version">Rappel sur le périmètre de cette version</h2>
+
+<p>Dans cette première version, certains éléments ne sont pas finalisés.</p>
+
+<p>Il est inutile de créer une fiche de signalement pour :</p>
+
+<ul>
+  <li>le design général non finalisé ;</li>
+  <li>l’affichage sur smartphone ou tablette ;</li>
+  <li>les problèmes responsive ;</li>
+  <li>les textes provisoires ;</li>
+  <li>les contenus incomplets ;</li>
+  <li>les blocs de texte de type lorem ipsum.</li>
+</ul>
+
+<p>Les signalements doivent se concentrer en priorité sur les parcours utilisateur, la compréhension générale, les fonctionnalités disponibles, les erreurs visibles et les comportements réellement bloquants ou gênants.</p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/SINP-Haut-de-France/sinp_hdf.github.io">sinp_hdf.github.io</a> is maintained by <a href="https://github.com/SINP-Haut-de-France">SINP-Haut-de-France</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
