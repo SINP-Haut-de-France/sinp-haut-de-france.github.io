@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Add header test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release_Notes/20260708-V1-0.md" beforeDir="false" afterPath="$PROJECT_DIR$/Release_Notes/20260708-V1-0.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-    </list>
+    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Version correction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +22,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SINP-Haut-de-France/sinp_hdf.github.io.git",
+    "accountId": "51d71df8-ff65-43f3-959e-17d49d16e9ad"
+  }
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -138,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782897949951</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version correction">
+      <option name="closed" value="true" />
+      <created>1783436541005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1783436541005</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,9 +157,34 @@
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="com.intellij.configurationType" implementationName="JekyllRunConfiguration" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add jekyll config" />
     <MESSAGE value="Add header test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add header test" />
+    <MESSAGE value="Add release note explainations" />
+    <MESSAGE value="Version correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version correction" />
   </component>
 </project>
