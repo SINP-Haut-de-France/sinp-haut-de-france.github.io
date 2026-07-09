@@ -1,8 +1,19 @@
 # Guide de test utilisateur
 
 Ce document propose une méthode simple pour tester l'application web pendant une première phase de retours utilisateurs.
-
 L'objectif n'est pas de réaliser un audit technique complet, mais de vérifier si l'application est compréhensible, agréable à utiliser et cohérente pour un utilisateur final ou un chef de projet.
+
+## !!! IMPORTANT : ce qui n'est pas encore à tester dans cette version
+
+- La version actuelle de la cartographie est grand public. La précision maximale est la grille 5x5 ou la commune. La donnée n'est donc pas restituée à sa localisation la plus précise.
+- Les flux destinés à la diffusion ne sont pas non plus opérationnels et seront implémentés en même temps que la gestion de compte expert / grand public et la diffusion de données précises.
+- Certaines parties de l'application sont encore incomplètes ou non finalisées. Il est donc inutile de créer des fiches de bug sur ces points pour le moment.
+- Le design général n'est pas encore finalisé. Les couleurs, espacements, styles, pictogrammes, tailles de texte et détails visuels pourront évoluer dans une prochaine version.
+L'affichage responsive n'est pas pris en charge dans cette version. Il est donc inutile de tester l'application sur smartphone ou tablette pour le moment. Les tests doivent être réalisés sur ordinateur.
+- Le contenu éditorial n'est pas figé et reste incomplet. Certains textes peuvent être absents, provisoires ou remplacés par du faux texte de type lorem ipsum. Il est inutile de créer une fiche de bug pour signaler ces contenus temporaires.
+
+**Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.**
+
 
 ## Astuces et conseils
 
@@ -117,14 +128,3 @@ Les retours peuvent concerner :
 - une information manquante ;
 - une suggestion d'amélioration fonctionnelle.
 
-## !!! IMPORTANT : ce qui n'est pas encore à tester dans cette version
-
-Certaines parties de l'application sont encore incomplètes ou non finalisées. Il est donc inutile de créer des fiches de bug sur ces points pour le moment.
-
-Le design général n'est pas encore finalisé. Les couleurs, espacements, styles, pictogrammes, tailles de texte et détails visuels pourront évoluer dans une prochaine version.
-
-L'affichage responsive n'est pas pris en charge dans cette version. Il est donc inutile de tester l'application sur smartphone ou tablette pour le moment. Les tests doivent être réalisés sur ordinateur.
-
-Le contenu éditorial n'est pas figé et reste incomplet. Certains textes peuvent être absents, provisoires ou remplacés par du faux texte de type lorem ipsum. Il est inutile de créer une fiche de bug pour signaler ces contenus temporaires.
-
-Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.
