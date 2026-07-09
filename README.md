@@ -4,7 +4,7 @@ Documentation technique et suivi des mises à jour de la plateforme technique si
 
 ## Release Notes
 
-- [Version 1.0.0 (phase de test initiale) publiée le 08 Juillet 2026](Release_Notes/20260708-V1-0.md)
+- [Version 1.0.0 (phase de test initiale) publiée le 08 Juillet 2026](https://github.com/SINP-Haut-de-France/mviewer_bs/releases/tag/Latest)
 
 ## Documentation générale
 
