@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Evolution feuille de route - fiches métadonnées disponibles partiellement">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Release_Notes/20260708-V1-0.md" beforeDir="false" />
+    <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Mise à jour lien vers release notes qui pointe directement sur la release github.&#10;Ajout de conseils et astuces">
       <change beforePath="$PROJECT_DIR$/Tutos/fiche-signalement-geocontrib.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tutos/fiche-signalement-geocontrib.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +115,7 @@
       <workItem from="1783428938043" duration="115000" />
       <workItem from="1783433215410" duration="336000" />
       <workItem from="1783517080700" duration="1952000" />
-      <workItem from="1783576826522" duration="1279000" />
+      <workItem from="1783576826522" duration="6360000" />
     </task>
     <task id="LOCAL-00001" summary="Add jekyll config">
       <option name="closed" value="true" />
@@ -177,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783517558917</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Mise à jour lien vers release notes qui pointe directement sur la release github.&#10;Ajout de conseils et astuces">
+      <option name="closed" value="true" />
+      <created>1783578294843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1783578294843</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +220,7 @@
     <MESSAGE value="Add release note explainations" />
     <MESSAGE value="Version correction" />
     <MESSAGE value="Evolution feuille de route - fiches métadonnées disponibles partiellement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Evolution feuille de route - fiches métadonnées disponibles partiellement" />
+    <MESSAGE value="Mise à jour lien vers release notes qui pointe directement sur la release github.&#10;Ajout de conseils et astuces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise à jour lien vers release notes qui pointe directement sur la release github.&#10;Ajout de conseils et astuces" />
   </component>
 </project>
