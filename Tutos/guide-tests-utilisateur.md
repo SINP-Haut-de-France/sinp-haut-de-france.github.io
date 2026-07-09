@@ -12,7 +12,7 @@ L'objectif n'est pas de réaliser un audit technique complet, mais de vérifier 
 L'affichage responsive n'est pas pris en charge dans cette version. Il est donc inutile de tester l'application sur smartphone ou tablette pour le moment. Les tests doivent être réalisés sur ordinateur.
 - Le contenu éditorial n'est pas figé et reste incomplet. Certains textes peuvent être absents, provisoires ou remplacés par du faux texte de type lorem ipsum. Il est inutile de créer une fiche de bug pour signaler ces contenus temporaires.
 
-** Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.**
+**Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.**
 
 
 ## Astuces et conseils
