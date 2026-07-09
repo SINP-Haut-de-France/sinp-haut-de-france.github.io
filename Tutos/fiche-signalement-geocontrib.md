@@ -4,6 +4,8 @@ Ce document explique comment remplir la [fiche de signalement](https://www.geo2f
 
 L'objectif de cette fiche est de transmettre aux développeurs les informations nécessaires pour comprendre, reproduire, qualifier et corriger un bug ou un comportement étrange. Plus le signalement est précis, plus il est facile de traiter le problème rapidement.
 
+# Description de la fiche
+
 ## Nom de la fiche
 
 Le champ **Nom de la fiche** correspond au titre du signalement.
