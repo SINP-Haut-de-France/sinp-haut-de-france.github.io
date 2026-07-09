@@ -1,7 +1,6 @@
 # Guide de test utilisateur
 
 Ce document propose une méthode simple pour tester l'application web pendant une première phase de retours utilisateurs.
-
 L'objectif n'est pas de réaliser un audit technique complet, mais de vérifier si l'application est compréhensible, agréable à utiliser et cohérente pour un utilisateur final ou un chef de projet.
 
 ## !!! IMPORTANT : ce qui n'est pas encore à tester dans cette version
