@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fce199d4-a390-4d69-9d9c-942a73bcef65" name="Changes" comment="Mise à jour lien vers release notes qui pointe directement sur la release github.&#10;Ajout de conseils et astuces">
-      <change beforePath="$PROJECT_DIR$/Tutos/fiche-signalement-geocontrib.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tutos/fiche-signalement-geocontrib.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutos/guide-tests-utilisateur.md" beforeDir="false" afterPath="$PROJECT_DIR$/Tutos/guide-tests-utilisateur.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +115,7 @@
       <workItem from="1783428938043" duration="115000" />
       <workItem from="1783433215410" duration="336000" />
       <workItem from="1783517080700" duration="1952000" />
-      <workItem from="1783576826522" duration="6360000" />
+      <workItem from="1783576826522" duration="8382000" />
     </task>
     <task id="LOCAL-00001" summary="Add jekyll config">
       <option name="closed" value="true" />
@@ -181,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783578294843</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Mise à jour lien vers release notes qui pointe directement sur la release github.&#10;Ajout de conseils et astuces">
+      <option name="closed" value="true" />
+      <created>1783589553645</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1783589553645</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
