@@ -21,7 +21,7 @@ Exemples :
 
 - Le bouton de recherche ne fonctionne pas
 - La carte ne s'affiche pas après chargement
-- Le filtre commune ne renvoie aucun résultat
+- Le filtre sur commune ne renvoie aucun résultat
 - Le texte d'aide n'est pas compréhensible
 
 À éviter :
