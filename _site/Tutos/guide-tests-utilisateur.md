@@ -1,8 +1,31 @@
 # Guide de test utilisateur
 
 Ce document propose une méthode simple pour tester l'application web pendant une première phase de retours utilisateurs.
-
 L'objectif n'est pas de réaliser un audit technique complet, mais de vérifier si l'application est compréhensible, agréable à utiliser et cohérente pour un utilisateur final ou un chef de projet.
+
+## !!! IMPORTANT : ce qui n'est pas encore à tester dans cette version
+
+- La version actuelle de la cartographie est grand public. La précision maximale est la grille 5x5 ou la commune. La donnée n'est donc pas restituée à sa localisation la plus précise.
+- Les flux destinés à la diffusion ne sont pas non plus opérationnels et seront implémentés en même temps que la gestion de compte expert / grand public et la diffusion de données précises.
+- Certaines parties de l'application sont encore incomplètes ou non finalisées. Il est donc inutile de créer des fiches de bug sur ces points pour le moment.
+- Le design général n'est pas encore finalisé. Les couleurs, espacements, styles, pictogrammes, tailles de texte et détails visuels pourront évoluer dans une prochaine version.
+L'affichage responsive n'est pas pris en charge dans cette version. Il est donc inutile de tester l'application sur smartphone ou tablette pour le moment. Les tests doivent être réalisés sur ordinateur.
+- Le contenu éditorial n'est pas figé et reste incomplet. Certains textes peuvent être absents, provisoires ou remplacés par du faux texte de type lorem ipsum. Il est inutile de créer une fiche de bug pour signaler ces contenus temporaires.
+
+**Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.**
+
+
+## Astuces et conseils
+
+- Il n'est pas nécessaire de rédiger une fiche par problèmes rencontrés. Il faut éviter par contre de regrouper tous nos signalements dans une seule et même fiche.
+    
+        La bonne pratique est de créer une fiche par type de bug ou fonctionnalité souhaitée.
+        exemple : un seul signalement pour toutes les erreurs de typographie
+
+- Des problèmes sont parfois liés au navigateur utilisé ou à un cache navigateur capricieux. Il est conseillé de toujours rafraîchir le cache de votre navigateur en utilisant la combinaison de touches CTRL + F5 et d'effectuer à nouveau le test avant de rédiger votre fiche.
+- Il est préférable à chaque mise à jour de la plateforme de rafraîchir le cache de votre navigateur en utilisant la combinaison de touches CTRL + F5 préconisée précédemment.
+- La version exacte de votre navigateur (firefox, chrome etc.) est souvent disponible dans la rubrique Aide => à propos navigateur.
+
 
 ## Objectifs des tests
 
@@ -105,14 +128,3 @@ Les retours peuvent concerner :
 - une information manquante ;
 - une suggestion d'amélioration fonctionnelle.
 
-## Ce qui n'est pas encore à tester dans cette version
-
-Certaines parties de l'application sont encore incomplètes ou non finalisées. Il est donc inutile de créer des fiches de bug sur ces points pour le moment.
-
-Le design général n'est pas encore finalisé. Les couleurs, espacements, styles, pictogrammes, tailles de texte et détails visuels pourront évoluer dans une prochaine version.
-
-L'affichage responsive n'est pas pris en charge dans cette version. Il est donc inutile de tester l'application sur smartphone ou tablette pour le moment. Les tests doivent être réalisés sur ordinateur.
-
-Le contenu éditorial n'est pas figé et reste incomplet. Certains textes peuvent être absents, provisoires ou remplacés par du faux texte de type lorem ipsum. Il est inutile de créer une fiche de bug pour signaler ces contenus temporaires.
-
-Les retours doivent donc se concentrer en priorité sur la compréhension générale, les parcours utilisateur, les fonctionnalités disponibles et les bugs réellement bloquants ou gênants.

@@ -1,12 +1,16 @@
-# Plateforme technique du SINP Hauts de France.
+# Plateforme technique du SINP Hauts-de-France
 
-Documentation technique et suivi des mises à jour de la plateforme technique sinp des Hauts-de-France
+Documentation technique, notes de version et ressources d'accompagnement du Système d'Information National du Patrimoine Naturel (SINP) en Hauts-de-France.
 
-## Release Notes
+## Notes de version
 
-- [Version 1.0 (phase de test initiale) publiée le 08 Juillet 2026](Release_Notes/20260708-V1-0.md)
+Historique des versions, évolutions, corrections et nouvelles fonctionnalités de la plateforme technique.
+
+- [Releases notes 1.0](Release_Notes/v1_0_releases.md)
 
 ## Documentation générale
 
+Ressources pour comprendre le SINP, participer aux tests et signaler les anomalies.
+
 - [Guide de test utilisateur](Tutos/guide-tests-utilisateur.md)
-- [Fiche de signalement geocontrib](Tutos/fiche-signalement-geocontrib.md)
+- [Fiche de signalement Geocontrib](Tutos/fiche-signalement-geocontrib.md)

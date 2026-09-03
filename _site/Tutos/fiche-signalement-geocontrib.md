@@ -1,8 +1,13 @@
 # Fiche de signalement Géocontrib
 
-Ce document explique comment remplir la fiche de signalement créée dans Géocontrib pendant la phase de tests.
+Ce document explique comment remplir la [fiche de signalement](https://www.geo2france.fr/geocontrib/projet/52-remontee-de-bug-sinp/type-signalement/201-fiche-de-remontee-de-bug-sinp-copie-02062026-1647) créée dans Géocontrib pendant la phase de tests.
 
 L'objectif de cette fiche est de transmettre aux développeurs les informations nécessaires pour comprendre, reproduire, qualifier et corriger un bug ou un comportement étrange. Plus le signalement est précis, plus il est facile de traiter le problème rapidement.
+
+Un exemple de signalement est disponible [ici](https://www.geo2france.fr/geocontrib/projet/52-remontee-de-bug-sinp/signalement-filtre?ordering=-created_on&offset=0).
+Le ticket github est rattaché est disponible [ici](https://github.com/SINP-Haut-de-France/sinp_hdf_hub/issues/109) (demande d'accès nécessaire).
+
+## Description de la fiche
 
 ## Nom de la fiche
 
@@ -16,7 +21,7 @@ Exemples :
 
 - Le bouton de recherche ne fonctionne pas
 - La carte ne s'affiche pas après chargement
-- Le filtre commune ne renvoie aucun résultat
+- Le filtre sur commune ne renvoie aucun résultat
 - Le texte d'aide n'est pas compréhensible
 
 À éviter :

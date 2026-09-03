@@ -4,10 +4,10 @@ Ce document explique comment remplir la [fiche de signalement](https://www.geo2f
 
 L'objectif de cette fiche est de transmettre aux développeurs les informations nécessaires pour comprendre, reproduire, qualifier et corriger un bug ou un comportement étrange. Plus le signalement est précis, plus il est facile de traiter le problème rapidement.
 
-Un exemple de signalement est disponible [ici](https://www.geo2france.fr/geocontrib/projet/52-remontee-de-bug-sinp/signalement-filtre?ordering=-created_on&offset=0.
+Un exemple de signalement est disponible [ici](https://www.geo2france.fr/geocontrib/projet/52-remontee-de-bug-sinp/signalement-filtre?ordering=-created_on&offset=0).
 Le ticket github est rattaché est disponible [ici](https://github.com/SINP-Haut-de-France/sinp_hdf_hub/issues/109) (demande d'accès nécessaire).
 
-# Description de la fiche
+## Description de la fiche
 
 ## Nom de la fiche
 
